@@ -1,7 +1,7 @@
 #!/bin/bash 
-Person1=Manoj 
-Person2=Jeevan 
-Person3=Buchi 
+Person1=$1
+Person2=$2 
+Person3=$3 
 date=$(date)
 echo "$Person1 is a software engineer"
 echo "$Person2 is a masters student"
