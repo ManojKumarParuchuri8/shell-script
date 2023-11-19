@@ -1,7 +1,7 @@
-Number1=$1 
-Number2=$2 
-Number3=$3 
-
-echo "Addition of three numbers are $((Number1+Number2+Number3))"
-echo "Subtraction of three numbers are $((Number1-Number2-Number3))"
-echo "Multiplication of three numbers are $((Number1*Number2*Number3))"
+#!/bin/bash 
+echo "Please enter your username"
+read -s USERNAME 
+echo "Username entered is: $USERNAME"
+echo "Please enter your password"
+read -s PASSWORD 
+echo "Password entered is : $PASSWORD" 
