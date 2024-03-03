@@ -8,4 +8,5 @@
 # echo "New Line added"
 a=10
 b=20 
-echo $(($a+$b))
+add=(($a+$b))
+echo $add 
