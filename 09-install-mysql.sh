@@ -3,7 +3,7 @@ ID=$(id -u)
 echo $ID  
  if [ $ID -ne 0 ] 
  then 
-    echo "He is not a root user"
+    echo "ERROR:: Please run this script with root access"
 else 
-    echo "He is  a root user"
+    echo "you are root user"
 fi 
