@@ -1,7 +1,7 @@
 #!/bin/bash 
 user=$(id -u) 
 echo $user 
- if $? == 0 
+ if $? -eq 0 
  then 
     echo "He is a root user"
 else 
