@@ -9,3 +9,6 @@ echo $add
 echo $multiply 
 echo $subtraction 
 echo $division 
+echo "All arguments passed $@"
+echo "Total number of arguments $#"
+echo "Script name is $0"
