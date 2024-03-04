@@ -1,6 +1,6 @@
 #!/bin/bash 
-a=10 
-b=20 
+a=$1
+b=$2
 if [ $a==$b ]
 then 
     echo "$a is not equal to $b"
