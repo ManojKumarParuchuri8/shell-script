@@ -18,6 +18,8 @@ VALIDATE()
 ID=$(id -u) 
 TIMESTAMP=$(date +%F-%H-%M-%S)
 LOGFILE="/tmp/$0-$TIMESTAMP.log"
+
+echo "Script started executing at $TIMESTAMP" &>> $LOGFILE 
  if [ $ID -ne 0 ] 
  then 
     echo -e " ERROR:: Please run this script with root $R access $N "
