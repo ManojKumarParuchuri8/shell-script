@@ -1,6 +1,5 @@
 #!/bin/bash 
 ID=$(id -u) 
-echo $ID  
  if [ $ID -ne 0 ] 
  then 
     echo "ERROR:: Please run this script with root access"
@@ -12,7 +11,8 @@ fi
 yum install mysql -y 
 if [ $? -ne 0 ]
 then 
-    echo "Something is happened not installed correctly"
+    echo "ERROR:: Installing MYSQL is failed"
+    exit 1 
 else 
-    echo "Mysql installed correctly"
+    echo "Installing MYSQL is SUCCESS"
 fi 
