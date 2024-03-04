@@ -9,10 +9,10 @@ VALIDATE()
 {
     if [ $1 -ne 0 ]
     then 
-        echo -e "$R ERROR:: $N $2 is failed"
+        echo -e "ERROR:: $2 is failed   $R manoj $N"
         exit 1 
     else 
-        echo "$2 is $G SUCCESS $N"
+        echo "$2 is  SUCCESS  $G manoj $N"
     fi 
 }
 ID=$(id -u) 
@@ -20,7 +20,7 @@ TIMESTAMP=$(date +%F-%H-%M-%S)
 LOGFILE="/tmp/$0-$TIMESTAMP.log"
  if [ $ID -ne 0 ] 
  then 
-    echo -e "$R ERROR:: $N Please run this script with root access"
+    echo -e " ERROR:: Please run this script with root $R access $N "
     exit 1 #you can give other than 0
 else 
     echo "you are root user"
