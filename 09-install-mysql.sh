@@ -9,7 +9,7 @@ else
 fi 
 
 yum install mysql -y 
-if [$? -ne 0 ]
+if [ $? -ne 0 ]
 then 
     echo "Something is happened not installed correctly"
 else 
