@@ -20,7 +20,7 @@ else
 fi 
 
 yum install mysql -y 
-VALIDATE() $? "MYSQL"
+VALIDATE $? "MYSQL"
 
 yum install git -y 
-VALIDATE()  $? "git"
+VALIDATE  $? "git"
