@@ -7,3 +7,11 @@ echo $ID
 else 
     echo "you are root user"
 fi 
+
+yum install mysql -y 
+if [$? -ne 0 ]
+then 
+    echo "Something is happened not installed correctly"
+else 
+    echo "Mysql installed correctly"
+fi 
