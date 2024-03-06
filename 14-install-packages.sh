@@ -2,6 +2,10 @@
 
 ID=$(id -u)
 
+R="\e[31m"
+G="\e[32m"
+Y="\e[33m"
+
 if [ $ID -ne 0 ] 
  then 
     echo -e " ERROR:: Please run this script with root access"
@@ -10,4 +14,5 @@ else
     echo "you are root user"
 fi 
 
-echo "All arguments Passed: $@"
+echo "All arguments Passed: $@" 
+echo "$R manoj $G"
