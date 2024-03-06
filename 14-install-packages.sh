@@ -15,4 +15,3 @@ else
 fi 
 
 echo "All arguments Passed: $@" 
-echo "$R manoj $G"
