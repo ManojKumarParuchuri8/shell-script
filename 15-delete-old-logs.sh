@@ -16,7 +16,7 @@ fi
 
 FILES_TO_DELETE=$(find /tmp/shellscript-logs -type f -mtime +13 -name '*.log')
 
-while IFS= read -r line 
+while IFS= read -r line
 do 
     echo $line 
-done <<< $FILES_TO_DELETE
+done <<< $FILEs_TO_DELETE 
