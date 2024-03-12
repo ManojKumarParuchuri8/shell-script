@@ -21,4 +21,4 @@ do
 
 done <<< $DISK_USAGE 
 
-echo $message 
+echo -e $message 
