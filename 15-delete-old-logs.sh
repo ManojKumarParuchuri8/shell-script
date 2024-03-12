@@ -25,4 +25,5 @@ do
         echo "File not deleted"
     else 
         echo "File Deleted"
+    fi 
 done <<< $FILES_TO_DELETE 
