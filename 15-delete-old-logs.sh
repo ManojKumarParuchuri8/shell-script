@@ -14,3 +14,6 @@ else
     echo -e "$G Source Directory $SOURCE_DIR Exist $N"
 fi
 
+FILES_TO_DELETE=$(find /tmp/shellscript-logs -type f -mtime +13 -name '*.log')
+
+echo $FILES_TO_DELETE
