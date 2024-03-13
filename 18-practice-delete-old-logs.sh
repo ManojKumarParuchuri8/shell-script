@@ -20,8 +20,8 @@ do
     rm -rf $line 
     if [ $? -ne 0 ]
     then 
-        echo "$line file is deleted"
+        echo "file is deleted"
     else 
-        echo "$line file not deleted"
+        echo "file not deleted"
     fi 
 done <<< $FILES_TO_DELETE
