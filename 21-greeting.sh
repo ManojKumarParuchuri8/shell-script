@@ -22,7 +22,7 @@ while getopts ":n:w:h:"  opt; do  #what we enter it comes to opt
     esac 
 done 
 
-if [ -z $NAME ] || [ -z $WISHES ]   # -z means empty
+if [ -z "$NAME" ] || [ -z "$WISHES" ]   # -z means empty
 then 
     echo "ERROR:: Both -n and -w are mandatory options."
     USAGE 
