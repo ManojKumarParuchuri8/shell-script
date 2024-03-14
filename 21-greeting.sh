@@ -12,7 +12,7 @@ USAGE()
     echo " -h, Display Help and exit"
 }
 
-while getopts ":n:w:h:"  opt; do  #waht we enter it comes to opt
+while getopts ":n:w:h:"  opt; do  #what we enter it comes to opt
     case $opt in 
         n) NAME="$OPTARG";;
         w) WISHES="$OPTARG";;
