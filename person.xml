@@ -1,0 +1,19 @@
+<Person>
+    <name>Manoj Kumar</name>
+    <city>Repalle</City>
+    <DOB>29-06-1998</DOB>
+    <Address>
+        <Homeaddress>
+            <address-line1>Repalle</address-line1>
+            <address-line2>Bapatla Dist</address-line2>
+            <street>Near Bsnl Exchange</street>
+            <pincode>522265</pincode>
+        </Homeaddress>
+        <Officeaddress>
+            <address-line1>Repalle</address-line1>
+            <address-line2>Bapatla Dist</address-line2>
+            <street>Near Bsnl Exchange</street>
+            <pincode>522265</pincode>
+        </Officeaddress>
+    </Address>
+</Person>

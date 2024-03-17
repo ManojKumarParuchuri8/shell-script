@@ -1,0 +1,27 @@
+- name: Manoj kumar
+  dob: 29-06-1998
+  address:
+    address-line1: Bank colony
+    address-line2: Kukatpally
+    address-line3: Gajuwaka 
+    city: Hyderabad
+  email: manojkumar.paruchuri532@gmail.com
+
+
+- name: Samyuktha
+  dob: 29-06-2000
+  address:
+    address-line1: Kerala
+    address-line2: Repalle
+    city: Bapatla
+  qualification:
+  - degree: Btech
+    college: Keralainstituteoftechnology
+    city: Kerala
+  - degree: Diploma
+    college: Keralacollege
+    city: Kerala
+  - degree: ssc
+    school: Keralaschool
+    city: kerala
+  email:  samyuktha@gmail.com
